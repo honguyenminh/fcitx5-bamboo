@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        A packaged release of upstream fcitx5-bamboo, a Vietnamese IME
 License:        LGPL-2.1+
 URL:            https://github.com/fcitx/fcitx5-bamboo
-Source:         https://github.com/honguyenminh/fcitx5-bamboo/
+Source:         %{name}-%{version}
 BuildRequires:  cmake >= 3.6
 BuildRequires:  gcc-c++
 BuildRequires:  gettext-devel
