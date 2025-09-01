@@ -21,7 +21,8 @@ Based on https://github.com/BambooEngine/bamboo-core
 Released under LGPLv2.1+
 
 %prep
-%autosetup
+%autosetup -S git
+git submodule update --init --recursive
 
 %build
 %cmake
